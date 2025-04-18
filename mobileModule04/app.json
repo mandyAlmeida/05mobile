@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "diary-app",
+    "slug": "diary-app",
+    "extra": {
+      "clerkPublishableKey": "pk_test_cG9saXNoZWQtc3dhbi04Ni5jbGVyay5hY2NvdW50cy5kZXYk",
+      "projectId": "b2e86c9d-cad4-4513-b8a2-9db7ff58cb9f"
+    },
+    "version": "1.0.0",
+    "scheme": "diary-app",
+    "owner": "mandyalmeidaa01",
+    "updates": {
+      "enabled": true,
+      "url": "https://u.expo.dev/b2e86c9d-cad4-4513-b8a2-9db7ff58cb9f"
+    },
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
