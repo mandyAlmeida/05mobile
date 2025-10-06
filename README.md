@@ -30,3 +30,6 @@ Mobile 5 – Manage Data and Display
 
 - Boas práticas de design, navegação e UX.
 
+Tecnologia utilizada:
+
+- React & React Native (JavaScript)
